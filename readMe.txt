@@ -32,5 +32,8 @@ Also, I am yet to figure how to keep the server running so i keep restarting my 
 
 if any of you obser any thing please let me know about it.
 
+######   LEARNING RESOURSES  #######
+Below are lists of learning resources i found while setting up or working on this project
 
+1. https://12factor.net/  => The twelve-factor app is a methodology for building software-as-a-service apps 
 Best.
