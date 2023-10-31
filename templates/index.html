@@ -1,11 +1,12 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title> 
-            hello
-        </title>
-    </head>
-    <body>
-        <h1>Hello world, from Paulmike!</h1>
-    </body>
-<html>
+{% extends "layout.html" %}
+
+{% block body %}
+   <form action="/" method="post">
+        <input autocomplete="off" autofocus name="name" placeholder="Name" required type="text"> <br><br>
+        <input autocomplete="off" autofocus name="email" placeholder="Email" required type="email"> <br><br>
+
+        <button type="submit">Generate</button>
+   </form>
+{% endblock %}
+
+
